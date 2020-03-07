@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <task>
+      <id>14</id>
+      <name>Bird2_train_parts</name>
+      <size>42</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2020-03-04 19:21:45.826815+00:00</created>
+      <updated>2020-03-04 22:36:13.399088+00:00</updated>
+      <start_frame>0</start_frame>
+      <stop_frame>0</stop_frame>
+      <frame_filter></frame_filter>
+      <z_order>False</z_order>
+      <labels>
+        <label>
+          <name>BFA</name>
+          <attributes>
+            <attribute>
+              <name>bodyparts</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>head</default_value>
+              <values>head
+wing
+tail
+eye
+beak</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>Cardinal</name>
+          <attributes>
+            <attribute>
+              <name>bodyparts</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>head</default_value>
+              <values>head
+wing
+tail
+eye
+beak</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>Western_Meadowlark</name>
+          <attributes>
+            <attribute>
+              <name>bodyparts</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>head</default_value>
+              <values>head
+wing
+tail
+eye
+beak</values>
+            </attribute>
+          </attributes>
+        </label>
+      </labels>
+      <segments>
+        <segment>
+          <id>13</id>
+          <start>0</start>
+          <stop>41</stop>
+          <url>http://localhost:8080/?id=13</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>django</username>
+        <email>jmcelhin@conncoll.edu</email>
+      </owner>
+      <assignee></assignee>
+    </task>
+    <dumped>2020-03-04 22:43:12.443241+00:00</dumped>
+  </meta>
+  <image id="0" name="70095201-480px.jpg" width="480" height="360">
+    <box label="BFA" occluded="0" xtl="75.62" ytl="189.88" xbr="310.28" ybr="280.28">
+      <attribute name="bodyparts">wing</attribute>
+    </box>
+    <box label="BFA" occluded="0" xtl="252.38" ytl="66.68" xbr="349.31" ybr="144.75">
+      <attribute name="bodyparts">head</attribute>
+    </box>
+  </image>
+  <image id="1" name="Black_Footed_Albatross_0002_55.jpg" width="500" height="347">
+    <box label="BFA" occluded="0" xtl="277.17" ytl="109.08" xbr="357.49" ybr="175.45">
+      <attribute name="bodyparts">head</attribute>
+    </box>
+    <box label="BFA" occluded="0" xtl="42.11" ytl="188.60" xbr="279.70" ybr="269.31">
+      <attribute name="bodyparts">wing</attribute>
+    </box>
+  </image>
+  <image id="2" name="Black_Footed_Albatross_0042_796071.jpg" width="500" height="356">
+    <box label="BFA" occluded="0" xtl="175.50" ytl="81.99" xbr="241.00" ybr="131.87">
+      <attribute name="bodyparts">head</attribute>
+    </box>
+    <box label="BFA" occluded="0" xtl="210.20" ytl="167.83" xbr="404.95" ybr="222.95">
+      <attribute name="bodyparts">wing</attribute>
+    </box>
+  </image>
+  <image id="3" name="Black_Footed_Albatross_0051_796103.jpg" width="500" height="391">
+    <box label="BFA" occluded="0" xtl="114.81" ytl="87.18" xbr="180.55" ybr="136.72">
+      <attribute name="bodyparts">head</attribute>
+    </box>
+    <box label="BFA" occluded="0" xtl="182.45" ytl="139.10" xbr="361.57" ybr="213.42">
+      <attribute name="bodyparts">wing</attribute>
+    </box>
+  </image>
+  <image id="4" name="Black_Footed_Albatross_0056_796078.jpg" width="500" height="390">
+    <box label="BFA" occluded="0" xtl="194.97" ytl="106.93" xbr="288.58" ybr="210.51">
+      <attribute name="bodyparts">head</attribute>
+    </box>
+    <box label="BFA" occluded="0" xtl="287.63" ytl="181.05" xbr="336.57" ybr="230.94">
+      <attribute name="bodyparts">head</attribute>
+    </box>
+  </image>
+  <image id="5" name="Black_Footed_Albatross_0060_796076.jpg" width="320" height="240">
+    <box label="BFA" occluded="0" xtl="50.70" ytl="120.47" xbr="240.47" ybr="184.50">
+      <attribute name="bodyparts">wing</attribute>
+    </box>
+    <box label="BFA" occluded="0" xtl="189.88" ytl="75.43" xbr="255.67" ybr="127.77">
+      <attribute name="bodyparts">head</attribute>
+    </box>
+  </image>
+  <image id="6" name="Black_Footed_Albatross_0061_796082.jpg" width="240" height="187">
+    <box label="BFA" occluded="0" xtl="80.41" ytl="99.57" xbr="173.59" ybr="145.59">
+      <attribute name="bodyparts">wing</attribute>
+    </box>
+    <box label="BFA" occluded="0" xtl="78.59" ytl="23.93" xbr="125.75" ybr="59.93">
+      <attribute name="bodyparts">head</attribute>
+    </box>
+  </image>
+  <image id="7" name="Black_Footed_Albatross_0076_417.jpg" width="500" height="441">
+    <box label="BFA" occluded="0" xtl="302.78" ytl="113.92" xbr="381.23" ybr="173.56">
+      <attribute name="bodyparts">head</attribute>
+    </box>
+    <box label="BFA" occluded="0" xtl="108.77" ytl="217.57" xbr="358.13" ybr="303.59">
+      <attribute name="bodyparts">wing</attribute>
+    </box>
+  </image>
+  <image id="8" name="Black_Footed_Albatross_0081_426.jpg" width="500" height="320">
+    <box label="BFA" occluded="0" xtl="248.91" ytl="76.04" xbr="321.81" ybr="137.64">
+      <attribute name="bodyparts">head</attribute>
+    </box>
+    <box label="BFA" occluded="0" xtl="106.21" ytl="139.16" xbr="230.97" ybr="231.99">
+      <attribute name="bodyparts">wing</attribute>
+    </box>
+  </image>
+  <image id="9" name="Cardinal_0051_17223.jpg" width="500" height="421">
+    <box label="Cardinal" occluded="0" xtl="130.08" ytl="190.81" xbr="177.27" ybr="255.44">
+      <attribute name="bodyparts">head</attribute>
+    </box>
+    <box label="Cardinal" occluded="0" xtl="79.81" ytl="294.42" xbr="160.34" ybr="346.69">
+      <attribute name="bodyparts">wing</attribute>
+    </box>
+  </image>
+  <image id="10" name="Cardinal_0052_18334.jpg" width="500" height="330">
+    <box label="Cardinal" occluded="0" xtl="174.10" ytl="119.82" xbr="344.97" ybr="184.55">
+      <attribute name="bodyparts">wing</attribute>
+    </box>
+    <box label="Cardinal" occluded="0" xtl="317.23" ytl="85.24" xbr="382.76" ybr="179.32">
+      <attribute name="bodyparts">head</attribute>
+    </box>
+  </image>
+  <image id="11" name="Cardinal_0053_17541.jpg" width="377" height="500">
+    <box label="Cardinal" occluded="0" xtl="168.53" ytl="84.71" xbr="255.64" ybr="171.82">
+      <attribute name="bodyparts">head</attribute>
+    </box>
+    <box label="Cardinal" occluded="0" xtl="130.80" ytl="179.07" xbr="237.37" ybr="275.99">
+      <attribute name="bodyparts">wing</attribute>
+    </box>
+  </image>
+  <image id="12" name="Cardinal_0054_19334.jpg" width="435" height="500">
+    <box label="Cardinal" occluded="0" xtl="124.42" ytl="140.08" xbr="329.11" ybr="265.02">
+      <attribute name="bodyparts">wing</attribute>
+    </box>
+    <box label="Cardinal" occluded="0" xtl="79.96" ytl="70.09" xbr="146.96" ybr="139.53">
+      <attribute name="bodyparts">head</attribute>
+    </box>
+  </image>
+  <image id="13" name="Cardinal_0055_18898.jpg" width="500" height="333">
+    <box label="Cardinal" occluded="0" xtl="310.96" ytl="75.48" xbr="361.27" ybr="135.12">
+      <attribute name="bodyparts">head</attribute>
+    </box>
+    <box label="Cardinal" occluded="0" xtl="351.08" ytl="141.17" xbr="411.98" ybr="207.75">
+      <attribute name="bodyparts">wing</attribute>
+    </box>
+  </image>
+  <image id="14" name="Cardinal_0056_18352.jpg" width="500" height="375">
+    <box label="Cardinal" occluded="0" xtl="136.99" ytl="0.00" xbr="270.21" ybr="155.63">
+      <attribute name="bodyparts">head</attribute>
+    </box>
+    <box label="Cardinal" occluded="0" xtl="262.54" ytl="112.86" xbr="402.34" ybr="229.09">
+      <attribute name="bodyparts">wing</attribute>
+    </box>
+  </image>
+  <image id="15" name="Cardinal_0075_17946.jpg" width="399" height="500">
+    <box label="Cardinal" occluded="0" xtl="177.73" ytl="108.46" xbr="255.70" ybr="229.69">
+      <attribute name="bodyparts">head</attribute>
+    </box>
+    <box label="Cardinal" occluded="0" xtl="87.57" ytl="227.80" xbr="193.57" ybr="280.86">
+      <attribute name="bodyparts">wing</attribute>
+    </box>
+  </image>
+  <image id="16" name="Cardinal_0078_17181.jpg" width="500" height="477">
+    <box label="Cardinal" occluded="0" xtl="290.25" ytl="31.40" xbr="411.71" ybr="180.75">
+      <attribute name="bodyparts">head</attribute>
+    </box>
+    <box label="Cardinal" occluded="0" xtl="257.12" ytl="191.16" xbr="339.64" ybr="281.30">
+      <attribute name="bodyparts">wing</attribute>
+    </box>
+  </image>
+  <image id="17" name="Cardinal_0079_19044.jpg" width="500" height="346">
+    <box label="Cardinal" occluded="0" xtl="269.49" ytl="113.39" xbr="353.37" ybr="173.67">
+      <attribute name="bodyparts">wing</attribute>
+    </box>
+    <box label="Cardinal" occluded="0" xtl="244.19" ytl="55.21" xbr="288.46" ybr="107.06">
+      <attribute name="bodyparts">head</attribute>
+    </box>
+  </image>
+  <image id="18" name="Cardinal_0081_17291.jpg" width="500" height="341">
+    <box label="Cardinal" occluded="0" xtl="302.43" ytl="82.28" xbr="377.63" ybr="180.33">
+      <attribute name="bodyparts">head</attribute>
+    </box>
+    <box label="Cardinal" occluded="0" xtl="137.08" ytl="132.92" xbr="240.60" ybr="228.10">
+      <attribute name="bodyparts">wing</attribute>
+    </box>
+  </image>
+  <image id="19" name="Cardinal_0085_19162.jpg" width="500" height="334">
+    <box label="Cardinal" occluded="0" xtl="138.98" ytl="19.14" xbr="227.69" ybr="100.53">
+      <attribute name="bodyparts">head</attribute>
+    </box>
+    <box label="Cardinal" occluded="0" xtl="165.43" ytl="99.27" xbr="337.16" ybr="231.97">
+      <attribute name="bodyparts">wing</attribute>
+    </box>
+  </image>
+  <image id="20" name="Cardinal_0089_18005.jpg" width="500" height="353">
+    <box label="Cardinal" occluded="0" xtl="168.39" ytl="73.55" xbr="224.73" ybr="115.70">
+      <attribute name="bodyparts">head</attribute>
+    </box>
+    <box label="Cardinal" occluded="0" xtl="220.81" ytl="116.52" xbr="274.61" ybr="200.43">
+      <attribute name="bodyparts">wing</attribute>
+    </box>
+  </image>
+  <image id="21" name="Cardinal_0092_17591.jpg" width="500" height="500">
+    <box label="Cardinal" occluded="0" xtl="136.79" ytl="233.89" xbr="308.03" ybr="333.25">
+      <attribute name="bodyparts">wing</attribute>
+    </box>
+    <box label="Cardinal" occluded="0" xtl="119.19" ytl="45.72" xbr="246.50" ybr="210.20">
+      <attribute name="bodyparts">head</attribute>
+    </box>
+  </image>
+  <image id="22" name="Cardinal_0093_17676.jpg" width="407" height="500">
+    <box label="Cardinal" occluded="0" xtl="291.34" ytl="154.09" xbr="348.60" ybr="375.28">
+      <attribute name="bodyparts">wing</attribute>
+    </box>
+    <box label="Cardinal" occluded="0" xtl="174.38" ytl="26.23" xbr="299.26" ybr="143.80">
+      <attribute name="bodyparts">head</attribute>
+    </box>
+  </image>
+  <image id="23" name="Western_Meadowlark_0040_77823.jpg" width="500" height="400">
+    <box label="Western_Meadowlark" occluded="0" xtl="122.41" ytl="62.86" xbr="208.67" ybr="132.06">
+      <attribute name="bodyparts">head</attribute>
+    </box>
+    <box label="Western_Meadowlark" occluded="0" xtl="185.77" ytl="116.47" xbr="388.99" ybr="213.45">
+      <attribute name="bodyparts">wing</attribute>
+    </box>
+  </image>
+  <image id="24" name="Western_Meadowlark_0042_78180.jpg" width="500" height="336">
+    <box label="Western_Meadowlark" occluded="0" xtl="286.93" ytl="88.84" xbr="336.87" ybr="133.05">
+      <attribute name="bodyparts">head</attribute>
+    </box>
+    <box label="Western_Meadowlark" occluded="0" xtl="326.23" ytl="139.19" xbr="376.99" ybr="233.35">
+      <attribute name="bodyparts">wing</attribute>
+    </box>
+  </image>
+  <image id="25" name="Western_Meadowlark_0048_78354.jpg" width="332" height="500">
+    <box label="Western_Meadowlark" occluded="0" xtl="47.97" ytl="199.17" xbr="133.87" ybr="349.70">
+      <attribute name="bodyparts">wing</attribute>
+    </box>
+    <box label="Western_Meadowlark" occluded="0" xtl="142.40" ytl="122.47" xbr="228.29" ybr="184.61">
+      <attribute name="bodyparts">head</attribute>
+    </box>
+  </image>
+  <image id="26" name="Western_Meadowlark_0081_77798.jpg" width="433" height="500">
+    <box label="Western_Meadowlark" occluded="0" xtl="169.08" ytl="235.10" xbr="319.00" ybr="372.85">
+      <attribute name="bodyparts">wing</attribute>
+    </box>
+    <box label="Western_Meadowlark" occluded="0" xtl="136.79" ytl="99.88" xbr="244.68" ybr="191.92">
+      <attribute name="bodyparts">head</attribute>
+    </box>
+  </image>
+  <image id="27" name="Western_Meadowlark_0083_78197.jpg" width="499" height="500">
+    <box label="Western_Meadowlark" occluded="0" xtl="227.68" ytl="152.93" xbr="447.59" ybr="384.42">
+      <attribute name="bodyparts">wing</attribute>
+    </box>
+    <box label="Western_Meadowlark" occluded="0" xtl="146.66" ytl="49.37" xbr="327.59" ybr="141.36">
+      <attribute name="bodyparts">head</attribute>
+    </box>
+  </image>
+  <image id="28" name="Western_Meadowlark_0085_77745.jpg" width="500" height="377">
+    <box label="Western_Meadowlark" occluded="0" xtl="296.48" ytl="70.73" xbr="353.44" ybr="123.09">
+      <attribute name="bodyparts">head</attribute>
+    </box>
+    <box label="Western_Meadowlark" occluded="0" xtl="344.71" ytl="134.57" xbr="406.72" ybr="229.19">
+      <attribute name="bodyparts">wing</attribute>
+    </box>
+  </image>
+  <image id="29" name="Western_Meadowlark_0086_78636.jpg" width="309" height="432">
+    <box label="Western_Meadowlark" occluded="0" xtl="112.00" ytl="81.05" xbr="200.43" ybr="135.27">
+      <attribute name="bodyparts">head</attribute>
+    </box>
+    <box label="Western_Meadowlark" occluded="0" xtl="78.79" ytl="147.90" xbr="120.95" ybr="283.69">
+      <attribute name="bodyparts">wing</attribute>
+    </box>
+  </image>
+  <image id="30" name="Western_Meadowlark_0091_78576.jpg" width="500" height="386">
+    <box label="Western_Meadowlark" occluded="0" xtl="272.68" ytl="87.02" xbr="350.28" ybr="130.28">
+      <attribute name="bodyparts">head</attribute>
+    </box>
+    <box label="Western_Meadowlark" occluded="0" xtl="140.03" ytl="141.56" xbr="277.39" ybr="235.63">
+      <attribute name="bodyparts">wing</attribute>
+    </box>
+  </image>
+  <image id="31" name="Western_Meadowlark_0108_78155.jpg" width="500" height="375">
+    <box label="Western_Meadowlark" occluded="0" xtl="109.36" ytl="165.83" xbr="251.00" ybr="244.42">
+      <attribute name="bodyparts">wing</attribute>
+    </box>
+    <box label="Western_Meadowlark" occluded="0" xtl="63.67" ytl="112.83" xbr="134.95" ybr="160.81">
+      <attribute name="bodyparts">head</attribute>
+    </box>
+  </image>
+  <image id="32" name="Western_Meadowlark_0109_77990.jpg" width="353" height="500">
+    <box label="Western_Meadowlark" occluded="0" xtl="146.17" ytl="151.11" xbr="197.95" ybr="202.89">
+      <attribute name="bodyparts">head</attribute>
+    </box>
+    <box label="Western_Meadowlark" occluded="0" xtl="183.94" ytl="208.98" xbr="271.05" ybr="332.64">
+      <attribute name="bodyparts">wing</attribute>
+    </box>
+  </image>
+  <image id="33" name="Western_Meadowlark_0112_78760.jpg" width="500" height="400">
+    <box label="Western_Meadowlark" occluded="0" xtl="205.96" ytl="3.62" xbr="339.30" ybr="87.25">
+      <attribute name="bodyparts">head</attribute>
+    </box>
+    <box label="Western_Meadowlark" occluded="0" xtl="130.52" ytl="84.85" xbr="206.55" ybr="220.00">
+      <attribute name="bodyparts">wing</attribute>
+    </box>
+  </image>
+  <image id="34" name="Western_Meadowlark_0115_77882.jpg" width="500" height="439">
+    <box label="Western_Meadowlark" occluded="0" xtl="300.93" ytl="142.29" xbr="377.95" ybr="264.77">
+      <attribute name="bodyparts">wing</attribute>
+    </box>
+    <box label="Western_Meadowlark" occluded="0" xtl="215.88" ytl="62.06" xbr="328.20" ybr="138.54">
+      <attribute name="bodyparts">head</attribute>
+    </box>
+  </image>
+  <image id="35" name="Western_Meadowlark_0116_77862.jpg" width="500" height="476">
+    <box label="Western_Meadowlark" occluded="0" xtl="237.96" ytl="182.12" xbr="296.54" ybr="216.91">
+      <attribute name="bodyparts">head</attribute>
+    </box>
+    <box label="Western_Meadowlark" occluded="0" xtl="156.13" ytl="218.07" xbr="256.52" ybr="283.60">
+      <attribute name="bodyparts">wing</attribute>
+    </box>
+  </image>
+  <image id="36" name="Western_Meadowlark_0120_77834.jpg" width="500" height="333">
+    <box label="Western_Meadowlark" occluded="0" xtl="310.15" ytl="121.33" xbr="361.27" ybr="155.00">
+      <attribute name="bodyparts">head</attribute>
+    </box>
+    <box label="Western_Meadowlark" occluded="0" xtl="209.12" ytl="150.91" xbr="331.24" ybr="212.61">
+      <attribute name="bodyparts">wing</attribute>
+    </box>
+  </image>
+  <image id="37" name="albatros-pieds-noirs-tg3.jpg" width="500" height="350">
+    <box label="BFA" occluded="0" xtl="184.41" ytl="114.26" xbr="390.80" ybr="194.47">
+      <attribute name="bodyparts">wing</attribute>
+    </box>
+    <box label="BFA" occluded="0" xtl="130.68" ytl="48.64" xbr="205.31" ybr="108.76">
+      <attribute name="bodyparts">head</attribute>
+    </box>
+  </image>
+  <image id="38" name="bfa_water_rsuryan.jpg" width="450" height="290">
+    <box label="BFA" occluded="0" xtl="106.36" ytl="169.25" xbr="298.57" ybr="240.98">
+      <attribute name="bodyparts">wing</attribute>
+    </box>
+    <box label="BFA" occluded="0" xtl="266.06" ytl="82.33" xbr="338.14" ybr="152.29">
+      <attribute name="bodyparts">head</attribute>
+    </box>
+  </image>
+  <image id="39" name="black_footed_albatross.jpg" width="610" height="473">
+    <box label="BFA" occluded="0" xtl="332.78" ytl="169.41" xbr="556.38" ybr="318.09">
+      <attribute name="bodyparts">wing</attribute>
+    </box>
+    <box label="BFA" occluded="0" xtl="222.71" ytl="39.17" xbr="346.04" ybr="149.24">
+      <attribute name="bodyparts">head</attribute>
+    </box>
+  </image>
+  <image id="40" name="black_footed_albatross1.jpg" width="640" height="456">
+    <box label="BFA" occluded="0" xtl="141.21" ytl="187.76" xbr="358.43" ybr="263.32">
+      <attribute name="bodyparts">wing</attribute>
+    </box>
+    <box label="BFA" occluded="0" xtl="344.54" ytl="95.54" xbr="415.10" ybr="159.98">
+      <attribute name="bodyparts">head</attribute>
+    </box>
+  </image>
+  <image id="41" name="black_footed_albatross2.jpg" width="259" height="194">
+    <box label="BFA" occluded="0" xtl="93.64" ytl="101.41" xbr="224.34" ybr="147.03">
+      <attribute name="bodyparts">wing</attribute>
+    </box>
+    <box label="BFA" occluded="0" xtl="86.54" ytl="26.25" xbr="147.76" ybr="75.88">
+      <attribute name="bodyparts">head</attribute>
+    </box>
+  </image>
+</annotations>

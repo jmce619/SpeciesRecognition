@@ -3,14 +3,14 @@
   <version>1.1</version>
   <meta>
     <task>
-      <id>10</id>
-      <name>Bird2_Train</name>
+      <id>12</id>
+      <name>Bird2_train_bbox</name>
       <size>42</size>
       <mode>annotation</mode>
       <overlap>0</overlap>
       <bugtracker></bugtracker>
-      <created>2020-03-03 15:50:14.258061+00:00</created>
-      <updated>2020-03-03 16:07:55.545161+00:00</updated>
+      <created>2020-03-04 19:15:42.176791+00:00</created>
+      <updated>2020-03-04 19:47:11.122150+00:00</updated>
       <start_frame>0</start_frame>
       <stop_frame>0</stop_frame>
       <frame_filter></frame_filter>
@@ -34,10 +34,10 @@
       </labels>
       <segments>
         <segment>
-          <id>9</id>
+          <id>11</id>
           <start>0</start>
           <stop>41</stop>
-          <url>http://localhost:8080/?id=9</url>
+          <url>http://localhost:8080/?id=11</url>
         </segment>
       </segments>
       <owner>
@@ -46,174 +46,174 @@
       </owner>
       <assignee></assignee>
     </task>
-    <dumped>2020-03-03 16:08:01.538089+00:00</dumped>
+    <dumped>2020-03-04 19:47:24.523356+00:00</dumped>
   </meta>
-  <image id="0" name="Black_Footed_Albatross_0023_796059.jpg" width="350" height="350">
-    <box label="BFA" occluded="0" xtl="0.65" ytl="58.00" xbr="347.37" ybr="306.60">
+  <image id="0" name="70095201-480px.jpg" width="480" height="360">
+    <box label="BFA" occluded="0" xtl="6.72" ytl="67.11" xbr="422.55" ybr="308.78">
     </box>
   </image>
-  <image id="1" name="Black_Footed_Albatross_0024_796089.jpg" width="500" height="414">
-    <box label="BFA" occluded="0" xtl="69.52" ytl="67.60" xbr="369.12" ybr="406.55">
+  <image id="1" name="Black_Footed_Albatross_0002_55.jpg" width="500" height="347">
+    <box label="BFA" occluded="0" xtl="12.04" ytl="109.90" xbr="403.98" ybr="298.88">
     </box>
   </image>
-  <image id="2" name="Black_Footed_Albatross_0040_796066.jpg" width="500" height="379">
-    <box label="BFA" occluded="0" xtl="21.55" ytl="86.80" xbr="417.73" ybr="320.44">
+  <image id="2" name="Black_Footed_Albatross_0042_796071.jpg" width="500" height="356">
+    <box label="BFA" occluded="0" xtl="134.72" ytl="82.85" xbr="442.23" ybr="261.11">
     </box>
   </image>
-  <image id="3" name="Black_Footed_Albatross_0041_796108.jpg" width="500" height="500">
-    <box label="BFA" occluded="0" xtl="216.58" ytl="120.03" xbr="438.32" ybr="274.15">
+  <image id="3" name="Black_Footed_Albatross_0051_796103.jpg" width="500" height="391">
+    <box label="BFA" occluded="0" xtl="79.58" ytl="88.58" xbr="411.60" ybr="238.16">
     </box>
   </image>
-  <image id="4" name="Black_Footed_Albatross_0042_796071.jpg" width="500" height="356">
-    <box label="BFA" occluded="0" xtl="136.02" ytl="82.85" xbr="439.20" ybr="259.81">
+  <image id="4" name="Black_Footed_Albatross_0056_796078.jpg" width="500" height="390">
+    <box label="BFA" occluded="0" xtl="147.48" ytl="88.37" xbr="345.61" ybr="259.90">
     </box>
   </image>
-  <image id="5" name="Black_Footed_Albatross_0051_796103.jpg" width="500" height="391">
-    <box label="BFA" occluded="0" xtl="80.05" ytl="88.58" xbr="411.60" ybr="235.30">
+  <image id="5" name="Black_Footed_Albatross_0060_796076.jpg" width="320" height="240">
+    <box label="BFA" occluded="0" xtl="10.94" ytl="77.78" xbr="292.23" ybr="211.41">
     </box>
   </image>
-  <image id="6" name="Black_Footed_Albatross_0056_796078.jpg" width="500" height="390">
-    <box label="BFA" occluded="0" xtl="153.18" ytl="86.94" xbr="346.09" ybr="265.12">
+  <image id="6" name="Black_Footed_Albatross_0061_796082.jpg" width="240" height="187">
+    <box label="BFA" occluded="0" xtl="50.09" ytl="24.83" xbr="209.12" ybr="162.21">
     </box>
   </image>
-  <image id="7" name="Black_Footed_Albatross_0058_796074.jpg" width="500" height="334">
-    <box label="BFA" occluded="0" xtl="71.85" ytl="29.29" xbr="298.51" ybr="289.72">
+  <image id="7" name="Black_Footed_Albatross_0076_417.jpg" width="500" height="441">
+    <box label="BFA" occluded="0" xtl="74.39" ytl="115.49" xbr="425.77" ybr="324.50">
     </box>
   </image>
-  <image id="8" name="Black_Footed_Albatross_0060_796076.jpg" width="320" height="240">
-    <box label="BFA" occluded="0" xtl="10.33" ytl="76.03" xbr="291.35" ybr="210.53">
+  <image id="8" name="Black_Footed_Albatross_0081_426.jpg" width="500" height="320">
+    <box label="BFA" occluded="0" xtl="94.13" ytl="75.26" xbr="357.29" ybr="249.53">
     </box>
   </image>
-  <image id="9" name="Black_Footed_Albatross_0061_796082.jpg" width="240" height="187">
-    <box label="BFA" occluded="0" xtl="50.32" ytl="25.05" xbr="207.98" ybr="159.70">
+  <image id="9" name="Cardinal_0051_17223.jpg" width="500" height="421">
+    <box label="Cardinal" occluded="0" xtl="10.56" ytl="191.31" xbr="188.54" ybr="407.76">
     </box>
   </image>
-  <image id="10" name="Black_Footed_Albatross_0064_796101.jpg" width="400" height="333">
-    <box label="BFA" occluded="0" xtl="90.55" ytl="50.71" xbr="342.90" ybr="316.44">
+  <image id="10" name="Cardinal_0052_18334.jpg" width="500" height="330">
+    <box label="Cardinal" occluded="0" xtl="32.58" ytl="87.62" xbr="395.63" ybr="259.30">
     </box>
   </image>
-  <image id="11" name="Black_Footed_Albatross_0076_417.jpg" width="500" height="441">
-    <box label="BFA" occluded="0" xtl="78.69" ytl="114.96" xbr="426.85" ybr="329.33">
+  <image id="11" name="Cardinal_0053_17541.jpg" width="377" height="500">
+    <box label="Cardinal" occluded="0" xtl="60.70" ytl="85.92" xbr="281.22" ybr="448.37">
     </box>
   </image>
-  <image id="12" name="Black_Footed_Albatross_0080_796096.jpg" width="376" height="322">
-    <box label="BFA" occluded="0" xtl="91.56" ytl="26.67" xbr="313.60" ybr="242.05">
+  <image id="12" name="Cardinal_0054_19334.jpg" width="435" height="500">
+    <box label="Cardinal" occluded="0" xtl="64.11" ytl="73.12" xbr="386.97" ybr="442.89">
     </box>
   </image>
-  <image id="13" name="Black_Footed_Albatross_0081_426.jpg" width="500" height="320">
-    <box label="BFA" occluded="0" xtl="93.74" ytl="72.92" xbr="357.29" ybr="246.80">
+  <image id="13" name="Cardinal_0055_18898.jpg" width="500" height="333">
+    <box label="Cardinal" occluded="0" xtl="293.48" ytl="77.08" xbr="438.32" ybr="326.99">
     </box>
   </image>
-  <image id="14" name="Cardinal_0051_17223.jpg" width="500" height="421">
-    <box label="Cardinal" occluded="0" xtl="12.61" ytl="192.34" xbr="189.57" ybr="403.15">
+  <image id="14" name="Cardinal_0056_18352.jpg" width="500" height="375">
+    <box label="Cardinal" occluded="0" xtl="94.90" ytl="0.00" xbr="441.48" ybr="292.51">
     </box>
   </image>
-  <image id="15" name="Cardinal_0052_18334.jpg" width="500" height="330">
-    <box label="Cardinal" occluded="0" xtl="34.82" ytl="89.47" xbr="393.77" ybr="248.68">
+  <image id="15" name="Cardinal_0075_17946.jpg" width="399" height="500">
+    <box label="Cardinal" occluded="0" xtl="91.22" ytl="107.85" xbr="272.14" ybr="320.44">
     </box>
   </image>
-  <image id="16" name="Cardinal_0053_17541.jpg" width="377" height="500">
-    <box label="Cardinal" occluded="0" xtl="62.77" ytl="91.72" xbr="280.61" ybr="441.86">
+  <image id="16" name="Cardinal_0078_17181.jpg" width="500" height="477">
+    <box label="Cardinal" occluded="0" xtl="131.75" ytl="28.26" xbr="445.64" ybr="425.07">
     </box>
   </image>
-  <image id="17" name="Cardinal_0054_19334.jpg" width="435" height="500">
-    <box label="Cardinal" occluded="0" xtl="65.32" ytl="74.90" xbr="388.48" ybr="443.32">
+  <image id="17" name="Cardinal_0079_19044.jpg" width="500" height="346">
+    <box label="Cardinal" occluded="0" xtl="234.90" ytl="53.13" xbr="417.43" ybr="215.84">
     </box>
   </image>
-  <image id="18" name="Cardinal_0055_18898.jpg" width="500" height="333">
-    <box label="Cardinal" occluded="0" xtl="293.48" ytl="77.89" xbr="435.48" ybr="325.37">
+  <image id="18" name="Cardinal_0081_17291.jpg" width="500" height="341">
+    <box label="Cardinal" occluded="0" xtl="90.11" ytl="77.69" xbr="378.89" ybr="308.68">
     </box>
   </image>
-  <image id="19" name="Cardinal_0056_18352.jpg" width="500" height="375">
-    <box label="Cardinal" occluded="0" xtl="88.90" ytl="0.00" xbr="441.01" ybr="301.66">
+  <image id="19" name="Cardinal_0085_19162.jpg" width="500" height="334">
+    <box label="Cardinal" occluded="0" xtl="116.17" ytl="18.54" xbr="469.50" ybr="313.23">
     </box>
   </image>
-  <image id="20" name="Cardinal_0075_17946.jpg" width="399" height="500">
-    <box label="Cardinal" occluded="0" xtl="92.89" ytl="104.07" xbr="282.21" ybr="345.30">
+  <image id="20" name="Cardinal_0089_18005.jpg" width="500" height="353">
+    <box label="Cardinal" occluded="0" xtl="162.35" ytl="75.26" xbr="286.21" ybr="298.47">
     </box>
   </image>
-  <image id="21" name="Cardinal_0078_17181.jpg" width="500" height="477">
-    <box label="Cardinal" occluded="0" xtl="131.02" ytl="29.39" xbr="443.33" ybr="430.07">
+  <image id="21" name="Cardinal_0092_17591.jpg" width="500" height="500">
+    <box label="Cardinal" occluded="0" xtl="87.33" ytl="45.81" xbr="427.24" ybr="455.90">
     </box>
   </image>
-  <image id="22" name="Cardinal_0079_19044.jpg" width="500" height="346">
-    <box label="Cardinal" occluded="0" xtl="232.45" ytl="53.75" xbr="417.60" ybr="220.07">
+  <image id="22" name="Cardinal_0093_17676.jpg" width="407" height="500">
+    <box label="Cardinal" occluded="0" xtl="136.01" ytl="18.18" xbr="356.78" ybr="498.44">
     </box>
   </image>
-  <image id="23" name="Cardinal_0081_17291.jpg" width="500" height="341">
-    <box label="Cardinal" occluded="0" xtl="88.37" ytl="74.46" xbr="376.53" ybr="303.79">
+  <image id="23" name="Western_Meadowlark_0040_77823.jpg" width="500" height="400">
+    <box label="Western_Meadowlark" occluded="0" xtl="119.32" ytl="62.69" xbr="456.17" ybr="276.02">
     </box>
   </image>
-  <image id="24" name="Cardinal_0085_19162.jpg" width="500" height="334">
-    <box label="Cardinal" occluded="0" xtl="118.38" ytl="17.90" xbr="472.77" ybr="314.63">
+  <image id="24" name="Western_Meadowlark_0042_78180.jpg" width="500" height="336">
+    <box label="Western_Meadowlark" occluded="0" xtl="261.26" ytl="74.93" xbr="392.71" ybr="263.56">
     </box>
   </image>
-  <image id="25" name="Cardinal_0089_18005.jpg" width="500" height="353">
-    <box label="Cardinal" occluded="0" xtl="164.16" ytl="74.17" xbr="286.16" ybr="302.70">
+  <image id="25" name="Western_Meadowlark_0048_78354.jpg" width="332" height="500">
+    <box label="Western_Meadowlark" occluded="0" xtl="36.82" ytl="107.73" xbr="246.61" ybr="439.60">
     </box>
   </image>
-  <image id="26" name="Cardinal_0092_17591.jpg" width="500" height="500">
-    <box label="Cardinal" occluded="0" xtl="91.23" ytl="47.90" xbr="425.45" ybr="454.92">
+  <image id="26" name="Western_Meadowlark_0081_77798.jpg" width="433" height="500">
+    <box label="Western_Meadowlark" occluded="0" xtl="78.34" ytl="93.32" xbr="410.94" ybr="447.86">
     </box>
   </image>
-  <image id="27" name="Cardinal_0093_17676.jpg" width="407" height="500">
-    <box label="Cardinal" occluded="0" xtl="143.25" ytl="21.06" xbr="353.95" ybr="500.00">
+  <image id="27" name="Western_Meadowlark_0083_78197.jpg" width="499" height="500">
+    <box label="Western_Meadowlark" occluded="0" xtl="86.79" ytl="48.27" xbr="485.74" ybr="465.11">
     </box>
   </image>
-  <image id="28" name="Western_Meadowlark_0040_77823.jpg" width="500" height="400">
-    <box label="Western_Meadowlark" occluded="0" xtl="117.64" ytl="64.79" xbr="455.88" ybr="276.73">
+  <image id="28" name="Western_Meadowlark_0085_77745.jpg" width="500" height="377">
+    <box label="Western_Meadowlark" occluded="0" xtl="256.09" ytl="68.58" xbr="418.14" ybr="300.08">
     </box>
   </image>
-  <image id="29" name="Western_Meadowlark_0042_78180.jpg" width="500" height="336">
-    <box label="Western_Meadowlark" occluded="0" xtl="261.54" ytl="77.77" xbr="389.58" ybr="265.22">
+  <image id="29" name="Western_Meadowlark_0086_78636.jpg" width="309" height="432">
+    <box label="Western_Meadowlark" occluded="0" xtl="79.16" ytl="83.53" xbr="244.78" ybr="385.47">
     </box>
   </image>
-  <image id="30" name="Western_Meadowlark_0048_78354.jpg" width="332" height="500">
-    <box label="Western_Meadowlark" occluded="0" xtl="41.86" ytl="109.41" xbr="248.00" ybr="437.62">
+  <image id="30" name="Western_Meadowlark_0091_78576.jpg" width="500" height="386">
+    <box label="Western_Meadowlark" occluded="0" xtl="61.13" ytl="87.49" xbr="388.44" ybr="275.41">
     </box>
   </image>
-  <image id="31" name="Western_Meadowlark_0052_77781.jpg" width="500" height="438">
-    <box label="Western_Meadowlark" occluded="0" xtl="34.46" ytl="2.50" xbr="420.29" ybr="382.10">
+  <image id="31" name="Western_Meadowlark_0108_78155.jpg" width="500" height="375">
+    <box label="Western_Meadowlark" occluded="0" xtl="35.36" ytl="113.76" xbr="299.43" ybr="270.46">
     </box>
   </image>
-  <image id="32" name="Western_Meadowlark_0081_77798.jpg" width="433" height="500">
-    <box label="Western_Meadowlark" occluded="0" xtl="75.18" ytl="94.48" xbr="412.90" ybr="448.87">
+  <image id="32" name="Western_Meadowlark_0109_77990.jpg" width="353" height="500">
+    <box label="Western_Meadowlark" occluded="0" xtl="110.83" ytl="144.40" xbr="264.95" ybr="379.53">
     </box>
   </image>
-  <image id="33" name="Western_Meadowlark_0083_78197.jpg" width="499" height="500">
-    <box label="Western_Meadowlark" occluded="0" xtl="81.59" ytl="51.88" xbr="484.79" ybr="465.69">
+  <image id="33" name="Western_Meadowlark_0112_78760.jpg" width="500" height="400">
+    <box label="Western_Meadowlark" occluded="0" xtl="122.69" ytl="6.97" xbr="397.08" ybr="325.50">
     </box>
   </image>
-  <image id="34" name="Western_Meadowlark_0085_77745.jpg" width="500" height="377">
-    <box label="Western_Meadowlark" occluded="0" xtl="261.38" ytl="67.59" xbr="413.51" ybr="304.38">
+  <image id="34" name="Western_Meadowlark_0115_77882.jpg" width="500" height="439">
+    <box label="Western_Meadowlark" occluded="0" xtl="167.01" ytl="62.94" xbr="367.56" ybr="317.10">
     </box>
   </image>
-  <image id="35" name="Western_Meadowlark_0086_78636.jpg" width="309" height="432">
-    <box label="Western_Meadowlark" occluded="0" xtl="72.89" ytl="81.62" xbr="248.51" ybr="316.26">
+  <image id="35" name="Western_Meadowlark_0116_77862.jpg" width="500" height="476">
+    <box label="Western_Meadowlark" occluded="0" xtl="145.67" ytl="184.99" xbr="301.15" ybr="335.19">
     </box>
   </image>
-  <image id="36" name="Western_Meadowlark_0091_78576.jpg" width="500" height="386">
-    <box label="Western_Meadowlark" occluded="0" xtl="60.74" ytl="89.46" xbr="385.79" ybr="274.00">
+  <image id="36" name="Western_Meadowlark_0120_77834.jpg" width="500" height="333">
+    <box label="Western_Meadowlark" occluded="0" xtl="185.16" ytl="120.89" xbr="359.20" ybr="264.11">
     </box>
   </image>
-  <image id="37" name="Western_Meadowlark_0108_78155.jpg" width="500" height="375">
-    <box label="Western_Meadowlark" occluded="0" xtl="37.18" ytl="114.21" xbr="298.97" ybr="296.05">
+  <image id="37" name="albatros-pieds-noirs-tg3.jpg" width="500" height="350">
+    <box label="BFA" occluded="0" xtl="106.87" ytl="52.58" xbr="466.08" ybr="226.36">
     </box>
   </image>
-  <image id="38" name="Western_Meadowlark_0109_77990.jpg" width="353" height="500">
-    <box label="Western_Meadowlark" occluded="0" xtl="112.05" ytl="144.40" xbr="267.39" ybr="342.98">
+  <image id="38" name="bfa_water_rsuryan.jpg" width="450" height="290">
+    <box label="BFA" occluded="0" xtl="56.16" ytl="84.42" xbr="380.89" ybr="257.90">
     </box>
   </image>
-  <image id="39" name="Western_Meadowlark_0112_78760.jpg" width="500" height="400">
-    <box label="Western_Meadowlark" occluded="0" xtl="123.60" ytl="2.06" xbr="400.09" ybr="308.02">
+  <image id="39" name="black_footed_albatross.jpg" width="610" height="473">
+    <box label="BFA" occluded="0" xtl="164.38" ytl="43.09" xbr="557.16" ybr="397.84">
     </box>
   </image>
-  <image id="40" name="Western_Meadowlark_0115_77882.jpg" width="500" height="439">
-    <box label="Western_Meadowlark" occluded="0" xtl="162.40" ytl="67.42" xbr="368.85" ybr="317.72">
+  <image id="40" name="black_footed_albatross1.jpg" width="640" height="456">
+    <box label="BFA" occluded="0" xtl="83.39" ytl="97.23" xbr="456.23" ybr="284.45">
     </box>
   </image>
-  <image id="41" name="Western_Meadowlark_0116_77862.jpg" width="500" height="476">
-    <box label="Western_Meadowlark" occluded="0" xtl="146.83" ytl="184.99" xbr="299.99" ybr="336.93">
+  <image id="41" name="black_footed_albatross2.jpg" width="259" height="194">
+    <box label="BFA" occluded="0" xtl="54.63" ytl="25.30" xbr="256.72" ybr="161.44">
     </box>
   </image>
 </annotations>
