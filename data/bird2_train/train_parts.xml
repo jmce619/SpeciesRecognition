@@ -115,7 +115,7 @@ beak</values>
   </image>
   <image id="4" name="Black_Footed_Albatross_0056_796078.jpg" width="500" height="390">
     <box label="BFA" occluded="0" xtl="194.97" ytl="106.93" xbr="288.58" ybr="210.51">
-      <attribute name="bodyparts">head</attribute>
+      <attribute name="bodyparts">wing</attribute>
     </box>
     <box label="BFA" occluded="0" xtl="287.63" ytl="181.05" xbr="336.57" ybr="230.94">
       <attribute name="bodyparts">head</attribute>
