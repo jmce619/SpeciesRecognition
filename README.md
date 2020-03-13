@@ -1,2 +1,40 @@
-# OCR_capstone
-Optical character recognition capstone project
+# Object Detection And Classification For Species Recognition
+by Jamie McElhiney
+## Problem Statement
+
+Around 12% of current bird species are considered endangered, threatened or vulnerable in some way. Many birds play a crucial roll in ecological systems for both predator and prey. Bird species such as these are known as 'keystone species' that hold an invaluable presence in their respective ecosystems. For example, a lot of birds are host to a variety of parasites and flys that also hold weight within their food chains. Additionally, many birds aid in pollination of certain plant species and creation of subhabitats such as nests or entry points in trees (woodpecker). It is incredibly important to conserve these species for both ecological and humane reasons. Not to mention, birds are peculiar and amusing to us. It would be a shame to go out on a walk and not hear the specific chirping melody based on the regional species.  
+What we can do is propose a habitat protection movement. Habitat loss and destruction are one of the leading causes of bird species extinction. We can discretely place cameras in areas we know there may be endangered species and are being considered for deforestation or other means of habitat disruption. We will attempt to train our own bird detection system so that we can appropriately assess the population and activity of specific species within our geographical regions of study. Working with local governments and species conservation groups, we can present our data and work against habitat loss.
+
+## Executive Summary
+
+We used a combination of images from Cal-Tech's bird data set . Cal-Tech's bird data set includes 200 species of around 80 images per species. We have abridged the dataset to 3 species of around 80 images per species. The species we will be considering include a Cardinal, Black-footed Albatross, and Western Meadowlark. The intended outcome of our study is to analyze various methods of segmentation and object detection, as opposed to produced a highly accurate bird classification model (although we will include classification). Image segmentation allows us to extract and separate different regions within our image. We are going to apply a selective search approach. We will then apply and evaluate a Convolutional Neural Network that will help us determine which segments are of interest (bird) and which are not (background noise, other animals,..so on)
+
+Selective Search
+- Diverse application of grouping/segmentation algorithms based on color/texture/shape  
+- Proposes multiple regions of interest  
+- Heirarchical 
+
+As with many image recognition and object detection problems, we run into many recurrent and expected problems. We must consider how we will account for birds with different poses, facing different directions, leaning forwards or backwards, facing the camera or facing away, flying or standing, and so on. If we feed in images of birds in only certain poses, lets say all facing left, how will our detection system recognize a bird facing right. We also have to considered different background classes. Different bird species will habit different genres of terrain(what region are these species found in), and similarly we have to account for what season it is, weather conditions, time of day, lighting, etc.. We have accounted for some of these issues with data augmentation where we have generated copies of our original data with added noise that can be considered synonymous with camera inconsistencies (scratching,dust) and orientation flips (pose left,right). Our augmentation was minimal given time constraints and annotations, so we are avoiding rotation.
+
+For both approaches, we fit and evaluated various classification algorithms in a binary setting (foreground,background). We use our annotated boundary boxes on our birds so we can retrieve suggested candidate regions for foreground objects. We calculated an Intersection over Union score (IoU) to determine how overlapped our proposed regions by our segmentation are with our ground truth (annoted labels) box. Regions with a score greater than 0.7 would be classified as foreground and regions with a score less than 0.3 would be classified as background. Scores between 0.7 and 0.3 are ignored. Our classification model consists out a multi layer Convalutional Network connected to a Fully Connected layer.
+
+
+## Data Dictionary
+
+
+| Name| Data Types (Pandas) | Description |
+|---|---|---|
+|root|object|root file path of image|
+|filename|object|full filename plus doc ext of image file|
+|w|int64|width of image|
+|h|int64|height of image|
+|x1|int64|first x-coordinate of bounding box|
+|y1|int64|first y-coordinate of bounding box|
+|x2|int64|second x-coordinate of bounding box|
+|y2|int64|second y-coordinate of bounding box|
+
+
+
+## Conclusion and Results
+
+We trained a CNN to achieve 87.53% testing accuracy and 94.25% training accuracy, which is significantly higher than our 50% baseline model. We do have some evidence of overfitting with  higher training accuracy and our testing loss history plot does not align with our training loss. 
