@@ -3,41 +3,31 @@
   <version>1.1</version>
   <meta>
     <task>
-      <id>11</id>
-      <name>Bird2_test_bbox</name>
-      <size>25</size>
+      <id>17</id>
+      <name>bird_new_test</name>
+      <size>82</size>
       <mode>annotation</mode>
       <overlap>0</overlap>
       <bugtracker></bugtracker>
-      <created>2020-03-04 19:14:40.551540+00:00</created>
-      <updated>2020-03-04 19:39:00.757103+00:00</updated>
+      <created>2020-03-14 23:23:02.703780+00:00</created>
+      <updated>2020-03-14 23:31:39.156712+00:00</updated>
       <start_frame>0</start_frame>
       <stop_frame>0</stop_frame>
       <frame_filter></frame_filter>
       <z_order>False</z_order>
       <labels>
         <label>
-          <name>BFA</name>
-          <attributes>
-          </attributes>
-        </label>
-        <label>
-          <name>Cardinal</name>
-          <attributes>
-          </attributes>
-        </label>
-        <label>
-          <name>Western_Meadowlark</name>
+          <name>bird</name>
           <attributes>
           </attributes>
         </label>
       </labels>
       <segments>
         <segment>
-          <id>10</id>
+          <id>16</id>
           <start>0</start>
-          <stop>24</stop>
-          <url>http://localhost:8080/?id=10</url>
+          <stop>81</stop>
+          <url>http://localhost:8080/?id=16</url>
         </segment>
       </segments>
       <owner>
@@ -46,106 +36,334 @@
       </owner>
       <assignee></assignee>
     </task>
-    <dumped>2020-03-04 19:39:30.826878+00:00</dumped>
+    <dumped>2020-03-14 23:31:41.910081+00:00</dumped>
   </meta>
-  <image id="0" name="Black_Footed_Albatross_0033_796086.jpg" width="500" height="375">
-    <box label="BFA" occluded="0" xtl="36.18" ytl="62.17" xbr="440.24" ybr="238.15">
+  <image id="0" name="Blue_Jay_0002_62657.jpg" width="500" height="400">
+    <box label="bird" occluded="0" xtl="163.33" ytl="132.04" xbr="360.21" ybr="274.34">
     </box>
   </image>
-  <image id="1" name="Black_Footed_Albatross_0038_212.jpg" width="500" height="332">
-    <box label="BFA" occluded="0" xtl="134.41" ytl="61.48" xbr="429.68" ybr="223.27">
+  <image id="1" name="Blue_Jay_0003_63408.jpg" width="500" height="332">
+    <box label="bird" occluded="0" xtl="24.35" ytl="48.94" xbr="292.56" ybr="312.26">
     </box>
   </image>
-  <image id="2" name="Black_Footed_Albatross_0039_796132.jpg" width="500" height="500">
-    <box label="BFA" occluded="0" xtl="150.79" ytl="151.71" xbr="460.31" ybr="354.56">
+  <image id="2" name="Blue_Jay_0006_63504.jpg" width="500" height="333">
+    <box label="bird" occluded="0" xtl="215.58" ytl="68.15" xbr="338.11" ybr="209.74">
     </box>
   </image>
-  <image id="3" name="Black_Footed_Albatross_0057_796106.jpg" width="500" height="337">
-    <box label="BFA" occluded="0" xtl="69.41" ytl="40.22" xbr="362.56" ybr="266.45">
+  <image id="3" name="Blue_Jay_0009_62873.jpg" width="500" height="312">
+    <box label="bird" occluded="0" xtl="79.40" ytl="56.25" xbr="302.91" ybr="163.44">
     </box>
   </image>
-  <image id="4" name="Black_Footed_Albatross_0063_796141.jpg" width="288" height="192">
-    <box label="BFA" occluded="0" xtl="47.44" ytl="26.67" xbr="243.70" ybr="140.82">
+  <image id="4" name="Blue_Jay_0013_61463.jpg" width="500" height="472">
+    <box label="bird" occluded="0" xtl="114.40" ytl="95.43" xbr="450.81" ybr="458.86">
     </box>
   </image>
-  <image id="5" name="Black_Footed_Albatross_0069_796139.jpg" width="200" height="200">
-    <box label="BFA" occluded="0" xtl="7.46" ytl="46.05" xbr="192.89" ybr="165.45">
+  <image id="5" name="Blue_Jay_0015_62916.jpg" width="500" height="309">
+    <box label="bird" occluded="0" xtl="90.46" ytl="39.15" xbr="431.92" ybr="227.76">
     </box>
   </image>
-  <image id="6" name="Black_Footed_Albatross_0090_796077.jpg" width="216" height="136">
-    <box label="BFA" occluded="0" xtl="6.12" ytl="3.75" xbr="215.61" ybr="134.03">
+  <image id="6" name="Blue_Jay_0020_63604.jpg" width="500" height="316">
+    <box label="bird" occluded="0" xtl="235.07" ytl="127.81" xbr="343.25" ybr="279.50">
     </box>
   </image>
-  <image id="7" name="Cardinal_0002_18424.jpg" width="333" height="500">
-    <box label="Cardinal" occluded="0" xtl="107.29" ytl="63.72" xbr="269.57" ybr="458.46">
+  <image id="7" name="Blue_Jay_0022_63074.jpg" width="500" height="413">
+    <box label="bird" occluded="0" xtl="100.15" ytl="48.78" xbr="273.74" ybr="302.88">
     </box>
   </image>
-  <image id="8" name="Cardinal_0006_17684.jpg" width="500" height="427">
-    <box label="Cardinal" occluded="0" xtl="162.68" ytl="97.81" xbr="489.38" ybr="391.21">
+  <image id="8" name="Blue_Jay_0024_63167.jpg" width="333" height="500">
+    <box label="bird" occluded="0" xtl="77.69" ytl="126.73" xbr="300.04" ybr="358.21">
     </box>
   </image>
-  <image id="9" name="Cardinal_0033_19215.jpg" width="401" height="500">
-    <box label="Cardinal" occluded="0" xtl="99.57" ytl="58.95" xbr="316.23" ybr="479.13">
+  <image id="9" name="Blue_Jay_0027_63133.jpg" width="500" height="414">
+    <box label="bird" occluded="0" xtl="65.48" ytl="96.35" xbr="463.95" ybr="282.47">
     </box>
   </image>
-  <image id="10" name="Cardinal_0040_17477.jpg" width="500" height="338">
-    <box label="Cardinal" occluded="0" xtl="117.89" ytl="91.00" xbr="384.32" ybr="240.48">
+  <image id="10" name="Blue_Jay_0028_63599.jpg" width="500" height="375">
+    <box label="bird" occluded="0" xtl="112.11" ytl="103.71" xbr="289.83" ybr="211.98">
     </box>
   </image>
-  <image id="11" name="Cardinal_0057_17128.jpg" width="500" height="393">
-    <box label="Cardinal" occluded="0" xtl="20.62" ytl="27.93" xbr="441.96" ybr="293.37">
+  <image id="11" name="Blue_Jay_0031_62913.jpg" width="500" height="384">
+    <box label="bird" occluded="0" xtl="275.84" ytl="39.30" xbr="401.22" ybr="339.18">
     </box>
   </image>
-  <image id="12" name="Cardinal_0060_17139.jpg" width="420" height="500">
-    <box label="Cardinal" occluded="0" xtl="91.34" ytl="112.11" xbr="372.77" ybr="453.24">
+  <image id="12" name="Blue_Jay_0033_62024.jpg" width="421" height="500">
+    <box label="bird" occluded="0" xtl="65.63" ytl="87.75" xbr="277.62" ybr="339.94">
     </box>
   </image>
-  <image id="13" name="Cardinal_0083_18042.jpg" width="500" height="375">
-    <box label="Cardinal" occluded="0" xtl="86.98" ytl="74.01" xbr="474.41" ybr="324.83">
+  <image id="13" name="Blue_Jay_0035_63560.jpg" width="500" height="342">
+    <box label="bird" occluded="0" xtl="85.52" ytl="87.10" xbr="400.93" ybr="212.10">
     </box>
   </image>
-  <image id="14" name="Cardinal_0084_17576.jpg" width="500" height="409">
-    <box label="Cardinal" occluded="0" xtl="57.77" ytl="160.97" xbr="301.44" ybr="333.38">
+  <image id="14" name="Blue_Jay_0079_62626.jpg" width="500" height="357">
+    <box label="bird" occluded="0" xtl="50.46" ytl="36.55" xbr="434.08" ybr="287.07">
     </box>
   </image>
-  <image id="15" name="Cardinal_0104_17122.jpg" width="352" height="500">
-    <box label="Cardinal" occluded="0" xtl="35.87" ytl="49.10" xbr="316.57" ybr="478.19">
+  <image id="15" name="Blue_Jay_0080_61617.jpg" width="500" height="401">
+    <box label="bird" occluded="0" xtl="80.07" ytl="84.03" xbr="301.87" ybr="272.12">
     </box>
   </image>
-  <image id="16" name="Western_Meadowlark_0044_77758.jpg" width="357" height="500">
-    <box label="Western_Meadowlark" occluded="0" xtl="50.04" ytl="96.88" xbr="249.29" ybr="310.09">
+  <image id="16" name="Blue_Jay_0102_61494.jpg" width="460" height="500">
+    <box label="bird" occluded="0" xtl="135.08" ytl="144.40" xbr="351.94" ybr="318.62">
     </box>
   </image>
-  <image id="17" name="Western_Meadowlark_0050_77864.jpg" width="500" height="400">
-    <box label="Western_Meadowlark" occluded="0" xtl="69.27" ytl="107.68" xbr="389.94" ybr="282.14">
+  <image id="17" name="Cardinal_0006_17684.jpg" width="500" height="427">
+    <box label="bird" occluded="0" xtl="178.86" ytl="107.17" xbr="455.62" ybr="362.60">
     </box>
   </image>
-  <image id="18" name="Western_Meadowlark_0053_77774.jpg" width="429" height="500">
-    <box label="Western_Meadowlark" occluded="0" xtl="24.51" ytl="51.20" xbr="274.94" ybr="260.75">
+  <image id="18" name="Cardinal_0033_19215.jpg" width="401" height="500">
+    <box label="bird" occluded="0" xtl="111.62" ytl="76.78" xbr="306.62" ybr="430.09">
     </box>
   </image>
-  <image id="19" name="Western_Meadowlark_0076_77811.jpg" width="500" height="366">
-    <box label="Western_Meadowlark" occluded="0" xtl="85.51" ytl="95.86" xbr="300.04" ybr="319.26">
+  <image id="19" name="Cardinal_0035_17678.jpg" width="455" height="500">
+    <box label="bird" occluded="0" xtl="119.79" ytl="167.54" xbr="252.58" ybr="307.04">
     </box>
   </image>
-  <image id="20" name="Western_Meadowlark_0077_77814.jpg" width="500" height="354">
-    <box label="Western_Meadowlark" occluded="0" xtl="125.83" ytl="60.79" xbr="313.92" ybr="296.28">
+  <image id="20" name="Cardinal_0037_18092.jpg" width="445" height="500">
+    <box label="bird" occluded="0" xtl="76.41" ytl="120.03" xbr="294.49" ybr="321.66">
     </box>
   </image>
-  <image id="21" name="Western_Meadowlark_0095_78568.jpg" width="380" height="295">
-    <box label="Western_Meadowlark" occluded="0" xtl="57.09" ytl="25.17" xbr="373.72" ybr="201.28">
+  <image id="21" name="Cardinal_0040_17477.jpg" width="500" height="338">
+    <box label="bird" occluded="0" xtl="126.54" ytl="93.06" xbr="356.73" ybr="237.60">
     </box>
   </image>
-  <image id="22" name="Western_Meadowlark_0103_78500.jpg" width="500" height="344">
-    <box label="Western_Meadowlark" occluded="0" xtl="71.53" ytl="139.55" xbr="223.25" ybr="244.33">
+  <image id="22" name="Cardinal_0057_17128.jpg" width="500" height="393">
+    <box label="bird" occluded="0" xtl="75.30" ytl="52.18" xbr="424.40" ybr="274.82">
     </box>
   </image>
-  <image id="23" name="Western_Meadowlark_0104_78105.jpg" width="500" height="468">
-    <box label="Western_Meadowlark" occluded="0" xtl="153.73" ytl="110.62" xbr="446.80" ybr="387.73">
+  <image id="23" name="Cardinal_0060_17139.jpg" width="420" height="500">
+    <box label="bird" occluded="0" xtl="101.69" ytl="127.95" xbr="343.53" ybr="420.35">
     </box>
   </image>
-  <image id="24" name="Western_Meadowlark_0107_78608.jpg" width="384" height="500">
-    <box label="Western_Meadowlark" occluded="0" xtl="108.03" ytl="90.18" xbr="310.27" ybr="332.02">
+  <image id="24" name="Cardinal_0062_17334.jpg" width="500" height="375">
+    <box label="bird" occluded="0" xtl="121.25" ytl="70.81" xbr="483.09" ybr="320.26">
+    </box>
+  </image>
+  <image id="25" name="Cardinal_0066_17803.jpg" width="500" height="384">
+    <box label="bird" occluded="0" xtl="74.62" ytl="111.81" xbr="344.14" ybr="252.63">
+    </box>
+  </image>
+  <image id="26" name="Cardinal_0072_17159.jpg" width="500" height="397">
+    <box label="bird" occluded="0" xtl="121.92" ytl="26.11" xbr="386.98" ybr="318.25">
+    </box>
+  </image>
+  <image id="27" name="Cardinal_0082_17875.jpg" width="444" height="500">
+    <box label="bird" occluded="0" xtl="114.30" ytl="76.78" xbr="417.06" ybr="472.13">
+    </box>
+  </image>
+  <image id="28" name="Cardinal_1.jpg" width="540" height="359">
+    <box label="bird" occluded="0" xtl="245.16" ytl="65.61" xbr="474.78" ybr="296.55">
+    </box>
+  </image>
+  <image id="29" name="Cardinal_100.jpg" width="512" height="342">
+    <box label="bird" occluded="0" xtl="161.52" ytl="56.27" xbr="456.94" ybr="225.85">
+    </box>
+  </image>
+  <image id="30" name="Cardinal_122.jpg" width="636" height="424">
+    <box label="bird" occluded="0" xtl="95.41" ytl="80.58" xbr="468.42" ybr="352.30">
+    </box>
+  </image>
+  <image id="31" name="Cardinal_131.jpg" width="720" height="490">
+    <box label="bird" occluded="0" xtl="52.07" ytl="70.46" xbr="420.41" ybr="374.92">
+    </box>
+  </image>
+  <image id="32" name="Cardinal_134.jpg" width="537" height="414">
+    <box label="bird" occluded="0" xtl="241.36" ytl="41.37" xbr="449.68" ybr="370.74">
+    </box>
+  </image>
+  <image id="33" name="Cardinal_151.jpg" width="600" height="600">
+    <box label="bird" occluded="0" xtl="106.41" ytl="73.08" xbr="441.21" ybr="483.90">
+    </box>
+  </image>
+  <image id="34" name="Gadwall female SWP2 (c) Derek Moore.jpg" width="480" height="270">
+    <box label="bird" occluded="0" xtl="141.40" ytl="80.93" xbr="362.77" ybr="189.20">
+    </box>
+  </image>
+  <image id="35" name="Gadwall.jpg" width="580" height="388">
+    <box label="bird" occluded="0" xtl="75.03" ytl="67.61" xbr="534.50" ybr="272.29">
+    </box>
+  </image>
+  <image id="36" name="Gadwall_0004_31669.jpg" width="367" height="500">
+    <box label="bird" occluded="0" xtl="81.90" ytl="120.03" xbr="323.73" ybr="346.64">
+    </box>
+  </image>
+  <image id="37" name="Gadwall_0005_30924.jpg" width="500" height="353">
+    <box label="bird" occluded="0" xtl="67.26" ytl="94.18" xbr="404.48" ybr="246.86">
+    </box>
+  </image>
+  <image id="38" name="Gadwall_0009_31847.jpg" width="500" height="375">
+    <box label="bird" occluded="0" xtl="97.95" ytl="40.66" xbr="429.18" ybr="289.20">
+    </box>
+  </image>
+  <image id="39" name="Gadwall_0010_31158.jpg" width="500" height="313">
+    <box label="bird" occluded="0" xtl="62.46" ytl="65.21" xbr="354.57" ybr="210.12">
+    </box>
+  </image>
+  <image id="40" name="Gadwall_0013_31020.jpg" width="500" height="342">
+    <box label="bird" occluded="0" xtl="92.56" ytl="108.77" xbr="386.35" ybr="234.18">
+    </box>
+  </image>
+  <image id="41" name="Gadwall_0014_31570.jpg" width="500" height="375">
+    <box label="bird" occluded="0" xtl="174.70" ytl="177.26" xbr="452.48" ybr="298.79">
+    </box>
+  </image>
+  <image id="42" name="Gadwall_0022_31616.jpg" width="500" height="310">
+    <box label="bird" occluded="0" xtl="63.12" ytl="73.28" xbr="435.89" ybr="236.44">
+    </box>
+  </image>
+  <image id="43" name="Gadwall_0025_30933.jpg" width="500" height="319">
+    <box label="bird" occluded="0" xtl="178.16" ytl="72.68" xbr="387.25" ybr="184.61">
+    </box>
+  </image>
+  <image id="44" name="Gadwall_0028_31623.jpg" width="500" height="302">
+    <box label="bird" occluded="0" xtl="118.34" ytl="130.60" xbr="384.73" ybr="227.00">
+    </box>
+  </image>
+  <image id="45" name="Gadwall_1.jpg" width="480" height="332">
+    <box label="bird" occluded="0" xtl="113.09" ytl="47.32" xbr="376.81" ybr="262.10">
+    </box>
+  </image>
+  <image id="46" name="Gadwall_12.jpg" width="540" height="422">
+    <box label="bird" occluded="0" xtl="79.90" ytl="132.14" xbr="437.69" ybr="297.17">
+    </box>
+  </image>
+  <image id="47" name="Gadwall_15.jpg" width="480" height="321">
+    <box label="bird" occluded="0" xtl="50.00" ytl="95.02" xbr="394.94" ybr="248.32">
+    </box>
+  </image>
+  <image id="48" name="Gadwall_18.jpg" width="480" height="360">
+    <box label="bird" occluded="0" xtl="52.77" ytl="59.22" xbr="426.06" ybr="268.87">
+    </box>
+  </image>
+  <image id="49" name="Gadwall_21.jpg" width="480" height="270">
+    <box label="bird" occluded="0" xtl="146.65" ytl="64.81" xbr="434.81" ybr="254.94">
+    </box>
+  </image>
+  <image id="50" name="Gadwall_5.jpg" width="459" height="353">
+    <box label="bird" occluded="0" xtl="39.91" ytl="13.76" xbr="402.89" ybr="246.00">
+    </box>
+  </image>
+  <image id="51" name="Gadwall_7.jpg" width="480" height="360">
+    <box label="bird" occluded="0" xtl="137.02" ytl="99.57" xbr="380.45" ybr="200.01">
+    </box>
+  </image>
+  <image id="52" name="Horned_Grebe_0053_34512.jpg" width="500" height="313">
+    <box label="bird" occluded="0" xtl="64.71" ytl="74.36" xbr="327.11" ybr="237.19">
+    </box>
+  </image>
+  <image id="53" name="Horned_Grebe_0057_34590.jpg" width="500" height="332">
+    <box label="bird" occluded="0" xtl="134.00" ytl="73.61" xbr="402.98" ybr="246.33">
+    </box>
+  </image>
+  <image id="54" name="Horned_Grebe_0058_34568.jpg" width="500" height="333">
+    <box label="bird" occluded="0" xtl="182.72" ytl="109.94" xbr="327.97" ybr="208.93">
+    </box>
+  </image>
+  <image id="55" name="Horned_Grebe_0068_35111.jpg" width="500" height="330">
+    <box label="bird" occluded="0" xtl="83.20" ytl="79.18" xbr="322.86" ybr="201.40">
+    </box>
+  </image>
+  <image id="56" name="Horned_Grebe_0069_34990.jpg" width="500" height="332">
+    <box label="bird" occluded="0" xtl="177.28" ytl="13.75" xbr="402.58" ybr="173.12">
+    </box>
+  </image>
+  <image id="57" name="Horned_Grebe_0070_34514.jpg" width="500" height="319">
+    <box label="bird" occluded="0" xtl="170.78" ytl="69.19" xbr="413.29" ybr="226.98">
+    </box>
+  </image>
+  <image id="58" name="Horned_Grebe_0071_35078.jpg" width="450" height="312">
+    <box label="bird" occluded="0" xtl="57.81" ytl="45.61" xbr="337.95" ybr="179.79">
+    </box>
+  </image>
+  <image id="59" name="Horned_Grebe_0072_34497.jpg" width="500" height="388">
+    <box label="bird" occluded="0" xtl="114.88" ytl="78.01" xbr="355.96" ybr="268.04">
+    </box>
+  </image>
+  <image id="60" name="Horned_Grebe_0076_34841.jpg" width="373" height="500">
+    <box label="bird" occluded="0" xtl="60.51" ytl="85.92" xbr="332.81" ybr="339.33">
+    </box>
+  </image>
+  <image id="61" name="Horned_Grebe_0077_34587.jpg" width="500" height="334">
+    <box label="bird" occluded="0" xtl="79.14" ytl="37.83" xbr="369.31" ybr="227.46">
+    </box>
+  </image>
+  <image id="62" name="Horned_Grebe_0078_34799.jpg" width="500" height="357">
+    <box label="bird" occluded="0" xtl="153.54" ytl="70.91" xbr="359.27" ybr="270.98">
+    </box>
+  </image>
+  <image id="63" name="Horned_Grebe_0082_34725.jpg" width="500" height="400">
+    <box label="bird" occluded="0" xtl="46.37" ytl="54.56" xbr="386.04" ybr="269.47">
+    </box>
+  </image>
+  <image id="64" name="Horned_Grebe_0102_34448.jpg" width="500" height="375">
+    <box label="bird" occluded="0" xtl="92.47" ytl="33.80" xbr="330.95" ybr="231.17">
+    </box>
+  </image>
+  <image id="65" name="Horned_Grebe_0103_34822.jpg" width="500" height="333">
+    <box label="bird" occluded="0" xtl="116.59" ytl="115.21" xbr="441.56" ybr="264.11">
+    </box>
+  </image>
+  <image id="66" name="Horned_Grebe_0106_35112.jpg" width="500" height="333">
+    <box label="bird" occluded="0" xtl="131.60" ytl="63.69" xbr="381.52" ybr="194.33">
+    </box>
+  </image>
+  <image id="67" name="Horned_Grebe_0110_35012.jpg" width="500" height="399">
+    <box label="bird" occluded="0" xtl="130.52" ytl="62.23" xbr="445.53" ybr="259.10">
+    </box>
+  </image>
+  <image id="68" name="Horned_Grebe_0112_34864.jpg" width="500" height="386">
+    <box label="bird" occluded="0" xtl="33.28" ytl="124.14" xbr="294.28" ybr="272.28">
+    </box>
+  </image>
+  <image id="69" name="Horned_Grebe_0114_34517.jpg" width="500" height="324">
+    <box label="bird" occluded="0" xtl="98.49" ytl="70.66" xbr="325.47" ybr="190.66">
+    </box>
+  </image>
+  <image id="70" name="Red_Winged_Blackbird_0001_3695.jpg" width="500" height="398">
+    <box label="bird" occluded="0" xtl="172.50" ytl="142.53" xbr="359.18" ybr="305.02">
+    </box>
+  </image>
+  <image id="71" name="Red_Winged_Blackbird_0006_6005.jpg" width="500" height="333">
+    <box label="bird" occluded="0" xtl="162.03" ytl="49.49" xbr="457.79" ybr="265.73">
+    </box>
+  </image>
+  <image id="72" name="Red_Winged_Blackbird_0007_3706.jpg" width="500" height="278">
+    <box label="bird" occluded="0" xtl="76.29" ytl="60.61" xbr="419.42" ybr="202.22">
+    </box>
+  </image>
+  <image id="73" name="Red_Winged_Blackbird_0010_6386.jpg" width="424" height="500">
+    <box label="bird" occluded="0" xtl="71.97" ytl="56.68" xbr="379.66" ybr="427.05">
+    </box>
+  </image>
+  <image id="74" name="Red_Winged_Blackbird_0044_5621.jpg" width="500" height="475">
+    <box label="bird" occluded="0" xtl="51.01" ytl="32.96" xbr="439.90" ybr="401.59">
+    </box>
+  </image>
+  <image id="75" name="Red_Winged_Blackbird_0052_5575.jpg" width="500" height="400">
+    <box label="bird" occluded="0" xtl="138.48" ytl="80.87" xbr="358.75" ybr="287.99">
+    </box>
+  </image>
+  <image id="76" name="Red_Winged_Blackbird_0053_4072.jpg" width="500" height="375">
+    <box label="bird" occluded="0" xtl="141.35" ytl="106.90" xbr="287.09" ybr="239.85">
+    </box>
+  </image>
+  <image id="77" name="Red_Winged_Blackbird_0054_4625.jpg" width="400" height="500">
+    <box label="bird" occluded="0" xtl="143.42" ytl="135.87" xbr="266.53" ybr="348.47">
+    </box>
+  </image>
+  <image id="78" name="Red_Winged_Blackbird_0055_4345.jpg" width="500" height="333">
+    <box label="bird" occluded="0" xtl="176.64" ytl="92.09" xbr="415.60" ybr="266.95">
+    </box>
+  </image>
+  <image id="79" name="Red_Winged_Blackbird_0088_4007.jpg" width="500" height="353">
+    <box label="bird" occluded="0" xtl="81.93" ytl="33.98" xbr="446.63" ybr="287.29">
+    </box>
+  </image>
+  <image id="80" name="Red_Winged_Blackbird_0094_5856.jpg" width="354" height="500">
+    <box label="bird" occluded="0" xtl="110.10" ytl="146.83" xbr="287.37" ybr="331.41">
+    </box>
+  </image>
+  <image id="81" name="Red_Winged_Blackbird_0101_6244.jpg" width="500" height="332">
+    <box label="bird" occluded="0" xtl="123.44" ytl="59.86" xbr="354.85" ybr="254.01">
     </box>
   </image>
 </annotations>
