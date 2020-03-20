@@ -1,0 +1,26 @@
+<annotation>
+	<folder>bird_new_train</folder>
+	<filename>Gadwall_0086_31346.jpg</filename>
+	<path>C:\Users\Jamie\Desktop\Archive\bird_new_train\Gadwall_0086_31346.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>500</width>
+		<height>328</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>bird</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>150</xmin>
+			<ymin>96</ymin>
+			<xmax>350</xmax>
+			<ymax>183</ymax>
+		</bndbox>
+	</object>
+</annotation>

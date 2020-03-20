@@ -1,0 +1,26 @@
+<annotation>
+	<folder>bird_new_train</folder>
+	<filename>Western_Meadowlark_0103_78500.jpg</filename>
+	<path>C:\Users\Jamie\Desktop\Archive\bird_new_train\Western_Meadowlark_0103_78500.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>500</width>
+		<height>344</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>bird</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>116</xmin>
+			<ymin>145</ymin>
+			<xmax>216</xmax>
+			<ymax>233</ymax>
+		</bndbox>
+	</object>
+</annotation>

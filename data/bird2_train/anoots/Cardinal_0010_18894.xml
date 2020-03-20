@@ -1,0 +1,26 @@
+<annotation>
+	<folder>bird_new_train</folder>
+	<filename>Cardinal_0010_18894.jpg</filename>
+	<path>C:\Users\Jamie\Desktop\Archive\bird_new_train\Cardinal_0010_18894.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>500</width>
+		<height>332</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>bird</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>66</xmin>
+			<ymin>52</ymin>
+			<xmax>200</xmax>
+			<ymax>204</ymax>
+		</bndbox>
+	</object>
+</annotation>

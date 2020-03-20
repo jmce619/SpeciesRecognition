@@ -1,0 +1,26 @@
+<annotation>
+	<folder>bird_new_train</folder>
+	<filename>Blue_Jay_0050_62974.jpg</filename>
+	<path>C:\Users\Jamie\Desktop\Archive\bird_new_train\Blue_Jay_0050_62974.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>500</width>
+		<height>355</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>bird</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>49</xmin>
+			<ymin>98</ymin>
+			<xmax>361</xmax>
+			<ymax>257</ymax>
+		</bndbox>
+	</object>
+</annotation>

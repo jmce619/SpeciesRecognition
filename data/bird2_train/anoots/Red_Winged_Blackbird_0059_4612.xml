@@ -1,0 +1,26 @@
+<annotation>
+	<folder>bird_new_train</folder>
+	<filename>Red_Winged_Blackbird_0059_4612.jpg</filename>
+	<path>C:\Users\Jamie\Desktop\Archive\bird_new_train\Red_Winged_Blackbird_0059_4612.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>500</width>
+		<height>356</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>bird</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>150</xmin>
+			<ymin>126</ymin>
+			<xmax>406</xmax>
+			<ymax>273</ymax>
+		</bndbox>
+	</object>
+</annotation>

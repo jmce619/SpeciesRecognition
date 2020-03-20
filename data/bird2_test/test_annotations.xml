@@ -3,14 +3,14 @@
   <version>1.1</version>
   <meta>
     <task>
-      <id>17</id>
-      <name>bird_new_test</name>
-      <size>82</size>
+      <id>21</id>
+      <name>bird_new_test_2</name>
+      <size>102</size>
       <mode>annotation</mode>
       <overlap>0</overlap>
       <bugtracker></bugtracker>
-      <created>2020-03-14 23:23:02.703780+00:00</created>
-      <updated>2020-03-14 23:31:39.156712+00:00</updated>
+      <created>2020-03-17 00:17:14.551011+00:00</created>
+      <updated>2020-03-17 00:19:57.006172+00:00</updated>
       <start_frame>0</start_frame>
       <stop_frame>0</stop_frame>
       <frame_filter></frame_filter>
@@ -24,10 +24,10 @@
       </labels>
       <segments>
         <segment>
-          <id>16</id>
+          <id>19</id>
           <start>0</start>
-          <stop>81</stop>
-          <url>http://localhost:8080/?id=16</url>
+          <stop>101</stop>
+          <url>http://localhost:8080/?id=19</url>
         </segment>
       </segments>
       <owner>
@@ -36,7 +36,7 @@
       </owner>
       <assignee></assignee>
     </task>
-    <dumped>2020-03-14 23:31:41.910081+00:00</dumped>
+    <dumped>2020-03-17 00:20:49.146278+00:00</dumped>
   </meta>
   <image id="0" name="Blue_Jay_0002_62657.jpg" width="500" height="400">
     <box label="bird" occluded="0" xtl="163.33" ytl="132.04" xbr="360.21" ybr="274.34">
@@ -364,6 +364,86 @@
   </image>
   <image id="81" name="Red_Winged_Blackbird_0101_6244.jpg" width="500" height="332">
     <box label="bird" occluded="0" xtl="123.44" ytl="59.86" xbr="354.85" ybr="254.01">
+    </box>
+  </image>
+  <image id="82" name="Western_Meadowlark_0003_78864.jpg" width="500" height="375">
+    <box label="bird" occluded="0" xtl="144.48" ytl="85.58" xbr="375.01" ybr="297.95">
+    </box>
+  </image>
+  <image id="83" name="Western_Meadowlark_0014_78421.jpg" width="331" height="500">
+    <box label="bird" occluded="0" xtl="116.25" ytl="214.45" xbr="247.22" ybr="355.78">
+    </box>
+  </image>
+  <image id="84" name="Western_Meadowlark_0017_78940.jpg" width="500" height="333">
+    <box label="bird" occluded="0" xtl="167.71" ytl="94.52" xbr="332.83" ybr="228.00">
+    </box>
+  </image>
+  <image id="85" name="Western_Meadowlark_0018_77880.jpg" width="500" height="500">
+    <box label="bird" occluded="0" xtl="66.12" ytl="102.97" xbr="242.84" ybr="357.00">
+    </box>
+  </image>
+  <image id="86" name="Western_Meadowlark_0048_78354.jpg" width="332" height="500">
+    <box label="bird" occluded="0" xtl="47.91" ytl="118.81" xbr="234.37" ybr="375.88">
+    </box>
+  </image>
+  <image id="87" name="Western_Meadowlark_0058_78247.jpg" width="500" height="375">
+    <box label="bird" occluded="0" xtl="117.14" ytl="180.92" xbr="229.53" ybr="291.02">
+    </box>
+  </image>
+  <image id="88" name="Western_Meadowlark_0060_78368.jpg" width="500" height="402">
+    <box label="bird" occluded="0" xtl="87.10" ytl="52.19" xbr="195.78" ybr="169.97">
+    </box>
+  </image>
+  <image id="89" name="Western_Meadowlark_0063_77946.jpg" width="334" height="500">
+    <box label="bird" occluded="0" xtl="106.14" ytl="115.77" xbr="265.19" ybr="279.63">
+    </box>
+  </image>
+  <image id="90" name="Western_Meadowlark_0064_78027.jpg" width="500" height="333">
+    <box label="bird" occluded="0" xtl="144.36" ytl="37.94" xbr="300.84" ybr="263.40">
+    </box>
+  </image>
+  <image id="91" name="Western_Meadowlark_0076_77811.jpg" width="500" height="366">
+    <box label="bird" occluded="0" xtl="123.86" ytl="96.31" xbr="259.46" ybr="279.13">
+    </box>
+  </image>
+  <image id="92" name="Western_Meadowlark_0079_78856.jpg" width="357" height="500">
+    <box label="bird" occluded="0" xtl="130.45" ytl="179.12" xbr="223.71" ybr="272.93">
+    </box>
+  </image>
+  <image id="93" name="Western_Meadowlark_0083_78197.jpg" width="499" height="500">
+    <box label="bird" occluded="0" xtl="107.28" ytl="47.53" xbr="421.81" ybr="427.74">
+    </box>
+  </image>
+  <image id="94" name="Western_Meadowlark_0086_78636.jpg" width="309" height="432">
+    <box label="bird" occluded="0" xtl="81.43" ytl="90.53" xbr="216.16" ybr="312.11">
+    </box>
+  </image>
+  <image id="95" name="Western_Meadowlark_0095_78568.jpg" width="380" height="295">
+    <box label="bird" occluded="0" xtl="93.93" ytl="27.47" xbr="339.76" ybr="204.99">
+    </box>
+  </image>
+  <image id="96" name="Western_Meadowlark_0096_77901.jpg" width="500" height="469">
+    <box label="bird" occluded="0" xtl="187.82" ytl="178.28" xbr="303.81" ybr="273.70">
+    </box>
+  </image>
+  <image id="97" name="Western_Meadowlark_0097_78239.jpg" width="325" height="450">
+    <box label="bird" occluded="0" xtl="69.32" ytl="37.66" xbr="251.69" ybr="282.40">
+    </box>
+  </image>
+  <image id="98" name="Western_Meadowlark_0098_78382.jpg" width="500" height="338">
+    <box label="bird" occluded="0" xtl="53.53" ytl="25.52" xbr="459.13" ybr="305.60">
+    </box>
+  </image>
+  <image id="99" name="Western_Meadowlark_0099_78176.jpg" width="500" height="347">
+    <box label="bird" occluded="0" xtl="90.41" ytl="66.82" xbr="221.34" ybr="261.12">
+    </box>
+  </image>
+  <image id="100" name="Western_Meadowlark_0101_78899.jpg" width="500" height="334">
+    <box label="bird" occluded="0" xtl="196.44" ytl="58.15" xbr="426.73" ybr="230.43">
+    </box>
+  </image>
+  <image id="101" name="Western_Meadowlark_0120_77834.jpg" width="500" height="333">
+    <box label="bird" occluded="0" xtl="209.91" ytl="126.17" xbr="356.77" ybr="253.56">
     </box>
   </image>
 </annotations>
