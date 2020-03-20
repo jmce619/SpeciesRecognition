@@ -39,11 +39,13 @@ For both approaches, we fit and evaluated various classification algorithms in a
 
 ## Conclusion and Recommendations.
 
-We trained a CNN to achieve 87.53% testing accuracy and 94.25% training accuracy, which is significantly higher than our 50% baseline model. We do have some evidence of overfitting with  higher training accuracy and our testing loss history plot does not align with our training loss. 
+We trained a CNN to achieve 95% testing accuracy and 98.8% training accuracy, which is significantly higher than our 50% baseline model. Looking over our false positives and false negatives, our model still needs some fine tuning as the presence of false positives will greatly interfere with our detection process. A relatively small sample size was used, we had around 300 images that segmented out to around 22k observations with a 17k/5k train test split. We also must take note that our positive samples also include background noise that can be considered a negative class. Our predictions are not perfect pixel-for-pixel representations of what we are actually detection, our bird. So different species of birds will tend to have different background noise that we will also be classifying on, when in actuality we dont want the extra noise in our computation.
 
-Image processing is a computational heavy endeavor. It usually goes without saying that on smaller scale projects where we dont have access to heavy computing, that more data would be needed. I think thats the case here since I chose NOT to include augmented data as running Selective Search + A CNN on hundreds of regions per hundreds of images would take too much time, especially given the constraints. Augmenting data has been proven to help overfit data especially in image recognition. We can also use GridSearch, Regularization, and ModelCheckpoints in the future to further tune our CNN and deploy it in the setting we are targeting.
+For further steps, we can also use GridSearch, and ModelCheckpoints in the tune our CNN and deploy it in the setting we are targeting. Now that we have a pool of objects that we have detected, we notice there are multiple predictions per object. We can apply different suppression techniques to choice the best proposal within a cluster of proposals which we can then push through another multi-classification problem.
 
 ## Sources
-http://www.huppelen.nl/publications/selectiveSearchDraft.pdf
-https://www.pyimagesearch.com/2018/09/03/semantic-segmentation-with-opencv-and-deep-learning/
-https://towardsdatascience.com/step-by-step-r-cnn-implementation-from-scratch-in-python-e97101ccde55
+- http://www.huppelen.nl/publications/selectiveSearchDraft.pdf
+- https://medium.com/@wenrudong/what-is-opencvs-inter-area-actually-doing-282a626a09b3
+- https://towardsdatascience.com/step-by-step-r-cnn-implementation-from-scratch-in-python-e97101ccde55
+- https://www.pyimagesearch.com/2018/09/03/semantic-segmentation-with-opencv-and-deep-learning/
+- https://www.pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/
