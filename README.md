@@ -36,12 +36,14 @@ For both approaches, we fit and evaluated various classification algorithms in a
 |y2|int64|second y-coordinate of bounding box|
 
 
-
 ## Conclusion and Recommendations.
 
 We trained a CNN to achieve 95% testing accuracy and 98.8% training accuracy, which is significantly higher than our 50% baseline model. Looking over our false positives and false negatives, our model still needs some fine tuning as the presence of false positives will greatly interfere with our detection process. A relatively small sample size was used, we had around 300 images that segmented out to around 22k observations with a 17k/5k train test split. We also must take note that our positive samples also include background noise that can be considered a negative class. Our predictions are not perfect pixel-for-pixel representations of what we are actually detection, our bird. So different species of birds will tend to have different background noise that we will also be classifying on, when in actuality we dont want the extra noise in our computation.
 
+We also made the realization that the presence of false positives is detrimental to detection. We can use our AUC-ROC curve to reevaluate our probability threshold for predictions. A higher threshold (>0.9) reduced false positive detection and still provided enough true positives to work with.
+
 For further steps, we can also use GridSearch, and ModelCheckpoints in the tune our CNN and deploy it in the setting we are targeting. Now that we have a pool of objects that we have detected, we notice there are multiple predictions per object. We can apply different suppression techniques to choice the best proposal within a cluster of proposals which we can then push through another multi-classification problem.
+
 
 ## Sources
 - http://www.huppelen.nl/publications/selectiveSearchDraft.pdf
