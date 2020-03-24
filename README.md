@@ -8,9 +8,9 @@ What we can do is propose a habitat protection movement. Habitat loss and destru
 ## Executive Summary
 
 Order of notebooks:
-SpeciesRecognitionDataCollection_0 (Creating dataframe and writing images-already done)
-SpeciesRecognitionSelectiveSearch_1 (Object detection model using selective search)
-SpeciesRecognitionNMS_2 (Non-max suppression and species classification)
+SpeciesRecognitionDataCollection_0 (Creating dataframe and writing images-already done)  
+SpeciesRecognitionSelectiveSearch_1 (Object detection model using selective search)  
+SpeciesRecognitionNMS_2 (Non-max suppression and species classification)  
 
 We used a combination of images from Cal-Tech's bird data set . Cal-Tech's bird data set includes 200 species of around 80 images per species. We have abridged the dataset to 6 species of around 40 images per species due to time constraints and labeling. The species we will be considering include a Cardinal, Blue Jay, Gadwall,Horned_grebbe, red-winged blackbird and Western Meadowlark. The intended outcome of our study is to deploy a highly accurate object detection system that allows us to localize our bird on an image, as opposed to produced a highly accurate bird classification model (although we will include classification). Image segmentation allows us to extract and separate different regions within our image. We are going to apply a selective search approach. We will then apply and evaluate a Convolutional Neural Network that will help us determine which segments are of interest (bird) and which are not (background noise, other animals,..so on)
 
