@@ -42,11 +42,14 @@ For both approaches, we fit and evaluated various classification algorithms in a
 
 ## Results
  
-<img src=./images/Capture30.jpg width="200" height="200">Detection
-<img src=./images/Capture24.jpg width="200" height="200">NMS and Classification
+<img src=./images/Capture30.jpg width="200" height="200">
+<img src=./images/Capture24.jpg width="200" height="200">  
+Detection--> NMS --> Classification
 
 <img src=./images/Capture32.jpg width="120" height="200">
-<img src=./images/Capture33.jpg width="120" height="200">
+<img src=./images/Capture33.jpg width="120" height="200">  
+Detection--> NMS --> Classification
+
  
 <img src=./images/Capture35.jpg width="300" height="200">
 
