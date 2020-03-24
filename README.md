@@ -41,15 +41,15 @@ For both approaches, we fit and evaluated various classification algorithms in a
 |y2|int64|second y-coordinate of bounding box|
 
 ## Results
-![Detection](./images/Capture30.jpg)   
-![Classification and Non-Max Suppression](./images/Capture24.jpg)  
+![Detection](./images/Capture30.jpg=250x250)   
+![Classification and Non-Max Suppression](./images/Capture24.jpg=250x250)  
 
-![Detection](./images/Capture32.png) 
-![Classification and Non-Max Suppression](./images/Capture33.png) 
+![Detection](./images/Capture32.jpg=250x250) 
+![Classification and Non-Max Suppression](./images/Capture33.jpg=250x250) 
 
-![Semi-correct detection](./images/Capture35.png)   
+![Semi-correct detection](./images/Capture35.jpg=250x250)   
 
-![Correct detection and classification](./images/Capture29.png) 
+![Correct detection and classification](./images/Capture29.jpg=250x250) 
 
 
 ## Conclusion and Recommendations.
