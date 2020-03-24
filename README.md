@@ -42,16 +42,16 @@ For both approaches, we fit and evaluated various classification algorithms in a
 
 ## Results
  
-<img src=./images/Capture30.jpg width="220" height="200"><img src=./images/Capture24.jpg width="220" height="200">  
+<img src=./images/Capture30.jpg width="220" height="200"><img src=./images/Capture24.jpg width="220" height="200">Proper localization, 1 incorrect classification  
 Detection--> NMS --> Classification
 
-<img src=./images/Capture32.jpg width="160" height="200"><img src=./images/Capture33.jpg width="160" height="200">    
+<img src=./images/Capture32.jpg width="160" height="200"><img src=./images/Capture33.jpg width="160" height="200">Correct prediction    
 Detection--> NMS --> Classification
 
  
-<img src=./images/Capture35.jpg width="300" height="200">
+<img src=./images/Capture35.jpg width="300" height="200">Semi-correct localization, correct classification.
 
-<img src=./images/Capture29.jpg width="240" height="240">  
+<img src=./images/Capture29.jpg width="280" height="240">  
 Correct prediction
 
 
