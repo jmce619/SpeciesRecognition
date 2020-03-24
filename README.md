@@ -41,17 +41,17 @@ For both approaches, we fit and evaluated various classification algorithms in a
 |y2|int64|second y-coordinate of bounding box|
 
 ## Results
-![Detection](./images/Capture30.jpg)
-![Classification and Non-Max Suppression](./images/Capture24.jpg)  
+ 
+<img src=./images/Capture30.jpg width="200" height="200">Detection
+<img src=./images/Capture24.jpg width="200" height="200">NMS and Classification
 
-<img src=./images/Capture24.jpg width="100" height="100">
+<img src=./images/Capture32.jpg width="120" height="200">
+<img src=./images/Capture33.jpg width="120" height="200">
+ 
+<img src=./images/Capture35.jpg width="300" height="200">
 
-![Detection](./images/Capture32.jpg) 
-![Classification and Non-Max Suppression](./images/Capture33.jpg) 
-
-![Semi-correct detection](./images/Capture35.jpg)   
-
-![Correct detection and classification](./images/Capture29.jpg) 
+<img src=./images/Capture29.jpg width="240" height="240">  
+Correct prediction
 
 
 ## Conclusion and Recommendations.
