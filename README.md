@@ -3,7 +3,7 @@ by Jamie McElhiney
 ## Problem Statement
 
 Around 12% of current bird species are considered endangered, threatened or vulnerable in some way. Many birds play a crucial roll in ecological systems for both predator and prey. Bird species such as these are known as 'keystone species' that hold an invaluable presence in their respective ecosystems. For example, a lot of birds are host to a variety of parasites and flys that also hold weight within their food chains. Additionally, many birds aid in pollination of certain plant species and creation of subhabitats such as nests or entry points in trees (woodpecker). It is incredibly important to conserve these species for both ecological and humane reasons. Not to mention, birds are peculiar and amusing to us. It would be a shame to go out on a walk and not hear the specific chirping melody based on the regional species.  
-What we can do is propose a habitat protection movement. Habitat loss and destruction are one of the leading causes of bird species extinction. We can discretely place cameras in areas we know there may be endangered species and are being considered for deforestation or other means of habitat disruption. We will attempt to train our own bird detection system so that we can appropriately assess the population and activity of specific species within our geographical regions of study. Working with local governments and species conservation groups, we can present our data and work against habitat loss.
+What we can do is propose a habitat protection movement. Habitat loss and destruction are one of the leading causes of bird species extinction. We can discretely place cameras in areas we know there may be endangered species and are being considered for deforestation or other means of habitat disruption. We will attempt to train our own bird detection system from scratch so that we can appropriately assess the population and activity of specific species within our geographical regions of study. Working with local governments and species conservation groups, we can present our data and work against habitat loss.
 
 ## Executive Summary
 
@@ -65,7 +65,7 @@ We noticed our positive samples are not perfect pixel-for-pixel representations 
 
 We made the realization that the presence of false positives is detrimental to detection. We can use our AUC-ROC curve to reevaluate our probability threshold for predictions and adjust True Positive and False Positive tradeoff for stronger deployment. A higher threshold (>0.9) reduced false positive detection and still provided enough true positives to work with.
 
-For further steps and more time, we can obtain ore data, gridsearch parameters, and use ModelCheckpoints to tune our CNN and deploy it in the setting we are targeting. 
+For further steps and more time, we can obtain more data. The biggest limitation to this project was the time constraint which prevented me from colleting and labeling enough data for an object detector and species classifier. Typically, tens of thousands of images should be used, whereas we only have 200 training images. We can also gridsearch parameters, and use ModelCheckpoints to tune our CNN and deploy it in the setting we are targeting. 
 
 ## Sources
 - http://www.huppelen.nl/publications/selectiveSearchDraft.pdf
