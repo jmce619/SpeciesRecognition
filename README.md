@@ -41,8 +41,10 @@ For both approaches, we fit and evaluated various classification algorithms in a
 |y2|int64|second y-coordinate of bounding box|
 
 ## Results
-![Detection](./images/Capture30.jpg){:height="200px" width="200px"}   
+![Detection](./images/Capture30.jpg)
 ![Classification and Non-Max Suppression](./images/Capture24.jpg)  
+
+<img src=./images/Capture24.jpg width="100" height="100">
 
 ![Detection](./images/Capture32.jpg) 
 ![Classification and Non-Max Suppression](./images/Capture33.jpg) 
