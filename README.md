@@ -7,6 +7,11 @@ What we can do is propose a habitat protection movement. Habitat loss and destru
 
 ## Executive Summary
 
+Order of notebooks:
+SpeciesRecognitionDataCollection_0 (Creating dataframe and writing images-already done)
+SpeciesRecognitionSelectiveSearch_1 (Object detection model using selective search)
+SpeciesRecognitionNMS_2 (Non-max suppression and species classification)
+
 We used a combination of images from Cal-Tech's bird data set . Cal-Tech's bird data set includes 200 species of around 80 images per species. We have abridged the dataset to 6 species of around 40 images per species due to time constraints and labeling. The species we will be considering include a Cardinal, Blue Jay, Gadwall,Horned_grebbe, red-winged blackbird and Western Meadowlark. The intended outcome of our study is to deploy a highly accurate object detection system that allows us to localize our bird on an image, as opposed to produced a highly accurate bird classification model (although we will include classification). Image segmentation allows us to extract and separate different regions within our image. We are going to apply a selective search approach. We will then apply and evaluate a Convolutional Neural Network that will help us determine which segments are of interest (bird) and which are not (background noise, other animals,..so on)
 
 Images were labeled in CVAT (Computer Vision Annotation tool) and LabelImg. Augmentations were performed in Roboflow.ai.
@@ -35,15 +40,29 @@ For both approaches, we fit and evaluated various classification algorithms in a
 |x2|int64|second x-coordinate of bounding box|
 |y2|int64|second y-coordinate of bounding box|
 
+## Results
+![Detection](./images/Capture30.png)   
+![Classification and Non-Max Suppression](./images/Capture24.png)  
+
+![Detection](./images/Capture32.png) 
+![Classification and Non-Max Suppression](./images/Capture33.png) 
+
+![Semi-correct detection](./images/Capture35.png)   
+
+![Correct detection and classification](./images/Capture29.png) 
+
 
 ## Conclusion and Recommendations.
 
-We trained a CNN to achieve 95% testing accuracy and 98.8% training accuracy, which is significantly higher than our 50% baseline model. Looking over our false positives and false negatives, our model still needs some fine tuning as the presence of false positives will greatly interfere with our detection process. A relatively small sample size was used, we had around 300 images that segmented out to around 22k observations with a 17k/5k train test split. We also must take note that our positive samples also include background noise that can be considered a negative class. Our predictions are not perfect pixel-for-pixel representations of what we are actually detection, our bird. So different species of birds will tend to have different background noise that we will also be classifying on, when in actuality we dont want the extra noise in our computation.
+We trained a binary classification CNN for object detection achieving 95% testing accuracy and 98.8% training accuracy, which is significantly higher than our 72.6% threshold. Looking over our false positives and false negatives, our model still needs some fine tuning as the presence of false positives will greatly interfere with our detection process. A relatively small sample size was used, we had around 300 images that segmented out to around 22k observations with a 17k/5k train test split.
 
-We also made the realization that the presence of false positives is detrimental to detection. We can use our AUC-ROC curve to reevaluate our probability threshold for predictions. A higher threshold (>0.9) reduced false positive detection and still provided enough true positives to work with.
+We then trained a multi a multi-classification CNN for species classification achieving a training accuracy of 90% and testing accuracy of 86.8%. This is also siginificantly higher than our 16.67% accuracy threshold.
 
-For further steps, we can also use GridSearch, and ModelCheckpoints in the tune our CNN and deploy it in the setting we are targeting. Now that we have a pool of objects that we have detected, we notice there are multiple predictions per object. We can apply different suppression techniques to choice the best proposal within a cluster of proposals which we can then push through another multi-classification problem.
+We noticed our positive samples are not perfect pixel-for-pixel representations of what we are actually detection, our bird. Our samples are bounding boxes that also bring in random noise. So different species of birds will tend to have different background noise that we will also be classifying on.
 
+We made the realization that the presence of false positives is detrimental to detection. We can use our AUC-ROC curve to reevaluate our probability threshold for predictions and adjust True Positive and False Positive tradeoff for stronger deployment. A higher threshold (>0.9) reduced false positive detection and still provided enough true positives to work with.
+
+For further steps and more time, we can obtain ore data, gridsearch parameters, and use ModelCheckpoints to tune our CNN and deploy it in the setting we are targeting. 
 
 ## Sources
 - http://www.huppelen.nl/publications/selectiveSearchDraft.pdf
